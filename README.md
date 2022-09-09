@@ -1,0 +1,4 @@
+# Username-Generator
+Code to generate a unique user name in php using first and last initials, letters of the alphabet and number
+
+Using recursion to add letters to a username so that each username is unique. Users for this include using a users first and last name initials to create a username for them. E.g John Doe would be JD1. Each new person that signs up with the initials JD would come in as JD2, JD3 and so on. If the number at the end gets too big, lets say 1000000232, this may be difficult for users to remember and use. So and more concise system is needed to keep the username from getting too large. The code placed a limit in the number portion of the username and adds a Letter/Letters to the initials to make the username short. The number could be capped at 99 for example, so If a 100th user with the initials come in they would get JDA1. All others would get a username such as JDA2-JDA99, JDB1-JDB99, JDZ1-JDZ99, JDAA1-JDAA99, JDAB1-JDAB99 and so on.
